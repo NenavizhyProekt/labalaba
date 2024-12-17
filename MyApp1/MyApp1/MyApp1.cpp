@@ -71,6 +71,7 @@ int main() {
     setlocale(LC_ALL, "RUS");
     int size;
 
+    std::cout << "Всем йоу" << std::endl;
     
     size = safe_input("Введите размер массива (1-1000): ");
 
