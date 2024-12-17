@@ -173,8 +173,8 @@ int main() {
 
     int myarray[3] = { 1, 2, 3 };
 
-    std::cout << "Dynamic lib test";
-    std::cout << ArrayProcessor::findAverage(myarray, 3);
+    std::cout << "Dynamic lib test" << std::endl;
+    std::cout << ArrayProcessor::findAverage(myarray, 3) << std::endl;
 
 
     MyLib::hello();
